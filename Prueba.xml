@@ -225,4 +225,307 @@
         </mxCell>
         
         <!-- Estados para AFND 5 -->
-        <mxCell id
+        <mxCell id="q0_5" value="q0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="540" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q1_5" value="q1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="540" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q2_5" value="q2" style="ellipse;whiteSpace=wrap;html=1;double=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="540" width="60" height="60"/>
+        </mxCell>
+        
+        <!-- Flecha inicial AFND 5 -->
+        <mxCell id="start5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="start_point5" target="q0_5">
+          <mxGeometry width="50" height="50" relative="1">
+            <mxPoint x="400" y="570" as="sourcePoint"/>
+            <mxPoint x="450" y="520" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="start_point5" value="" style="point;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="5" height="5"/>
+        </mxCell>
+        
+        <!-- Transiciones AFND 5 -->
+        <mxCell id="t1_5" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;entryX=0.25;entryY=1;" edge="1" parent="1" source="q0_5" target="q0_5">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t2_5" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0_5" target="q1_5">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t3_5" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1_5" target="q0_5">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t4_5" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1_5" target="q2_5">
+          <mxGeometry relative="1"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile><mxfile>
+  <diagram name="Página-1" id="c4ac0b25-1558-9c54-4c00-6d38b053e6b5">
+    <mxGraphModel dx="1426" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Título -->
+        <mxCell id="title" value="Diagramas de AFND para Expresiones Regulares" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="200" height="30"/>
+        </mxCell>
+
+        <!-- ===== 1. (a|b)*ab(a|b)* ===== -->
+        <mxCell id="subtitle1" value="1. (a|b)*ab(a|b)*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="150" height="20"/>
+        </mxCell>
+        
+        <!-- Estados para AFND 1 -->
+        <mxCell id="q0_1" value="q0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q1_1" value="q1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q2_1" value="q2" style="ellipse;whiteSpace=wrap;html=1;double=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="60" height="60"/>
+        </mxCell>
+        
+        <!-- Flecha inicial AFND 1 -->
+        <mxCell id="start1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;exitX=0.25;exitY=0.5;" edge="1" parent="1" source="start_point1" target="q0_1">
+          <mxGeometry width="50" height="50" relative="1">
+            <mxPoint x="30" y="130" as="sourcePoint"/>
+            <mxPoint x="80" y="80" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="start_point1" value="" style="point;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="5" height="5"/>
+        </mxCell>
+        
+        <!-- Transiciones AFND 1 -->
+        <mxCell id="t1_1" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="q0_1" target="q1_1">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t2_1" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="q1_1" target="q2_1">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t3_1" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;entryX=0.75;entryY=1;" edge="1" parent="1" source="q0_1" target="q0_1">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t4_1" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;entryX=0.25;entryY=1;" edge="1" parent="1" source="q0_1" target="q0_1">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t5_1" value="a,b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;entryX=0.25;entryY=1;" edge="1" parent="1" source="q2_1" target="q2_1">
+          <mxGeometry relative="1"/>
+        </mxCell>
+
+        <!-- ===== 2. (ab*a)|(ba*b) ===== -->
+        <mxCell id="subtitle2" value="2. (ab*a)|(ba*b)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="60" width="150" height="20"/>
+        </mxCell>
+        
+        <!-- Estados para AFND 2 -->
+        <mxCell id="q0_2" value="q0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="100" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q1_2" value="q1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="100" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q2_2" value="q2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="200" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q3_2" value="q3" style="ellipse;whiteSpace=wrap;html=1;double=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="150" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q4_2" value="q4" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q5_2" value="q5" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="60" height="60"/>
+        </mxCell>
+        
+        <!-- Flecha inicial AFND 2 -->
+        <mxCell id="start2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="start_point2" target="q0_2">
+          <mxGeometry width="50" height="50" relative="1">
+            <mxPoint x="400" y="130" as="sourcePoint"/>
+            <mxPoint x="450" y="80" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="start_point2" value="" style="point;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="5" height="5"/>
+        </mxCell>
+        
+        <!-- Transiciones AFND 2 -->
+        <mxCell id="t1_2" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0_2" target="q1_2">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t2_2" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0_2" target="q4_2">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t3_2" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1_2" target="q2_2">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t4_2" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;entryX=0.25;entryY=1;" edge="1" parent="1" source="q2_2" target="q2_2">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t5_2" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q2_2" target="q3_2">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t6_2" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q4_2" target="q5_2">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t7_2" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;entryX=0.25;entryY=1;" edge="1" parent="1" source="q5_2" target="q5_2">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t8_2" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q5_2" target="q3_2">
+          <mxGeometry relative="1"/>
+        </mxCell>
+
+        <!-- ===== 3. a(a*b|b*a)*b ===== -->
+        <mxCell id="subtitle3" value="3. a(a*b|b*a)*b" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="150" height="20"/>
+        </mxCell>
+        
+        <!-- Estados para AFND 3 -->
+        <mxCell id="q0_3" value="q0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q1_3" value="q1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q2_3" value="q2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q3_3" value="q3" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q4_3" value="q4" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q5_3" value="q5" style="ellipse;whiteSpace=wrap;html=1;double=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="60" height="60"/>
+        </mxCell>
+        
+        <!-- Flecha inicial AFND 3 -->
+        <mxCell id="start3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="start_point3" target="q0_3">
+          <mxGeometry width="50" height="50" relative="1">
+            <mxPoint x="30" y="370" as="sourcePoint"/>
+            <mxPoint x="80" y="320" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="start_point3" value="" style="point;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="370" width="5" height="5"/>
+        </mxCell>
+        
+        <!-- Transiciones AFND 3 -->
+        <mxCell id="t1_3" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0_3" target="q1_3">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t2_3" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1_3" target="q2_3">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t3_3" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1_3" target="q3_3">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t4_3" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;entryX=0.25;entryY=1;" edge="1" parent="1" source="q2_3" target="q2_3">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t5_3" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q2_3" target="q4_3">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t6_3" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;entryX=0.25;entryY=1;" edge="1" parent="1" source="q3_3" target="q3_3">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t7_3" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q3_3" target="q4_3">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t8_3" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q4_3" target="q2_3">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t9_3" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q4_3" target="q3_3">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t10_3" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q4_3" target="q5_3">
+          <mxGeometry relative="1"/>
+        </mxCell>
+
+        <!-- ===== 4. (aa|ab)* ===== -->
+        <mxCell id="subtitle4" value="4. (aa|ab)*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="150" height="20"/>
+        </mxCell>
+        
+        <!-- Estados para AFND 4 -->
+        <mxCell id="q0_4" value="q0" style="ellipse;whiteSpace=wrap;html=1;double=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q1_4" value="q1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="60" height="60"/>
+        </mxCell>
+        
+        <!-- Flecha inicial AFND 4 -->
+        <mxCell id="start4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="start_point4" target="q0_4">
+          <mxGeometry width="50" height="50" relative="1">
+            <mxPoint x="30" y="570" as="sourcePoint"/>
+            <mxPoint x="80" y="520" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="start_point4" value="" style="point;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="570" width="5" height="5"/>
+        </mxCell>
+        
+        <!-- Transiciones AFND 4 -->
+        <mxCell id="t1_4" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0_4" target="q1_4">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t2_4" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1_4" target="q0_4">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t3_4" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1_4" target="q0_4">
+          <mxGeometry relative="1"/>
+        </mxCell>
+
+        <!-- ===== 5. (a|ba)*b ===== -->
+        <mxCell id="subtitle5" value="5. (a|ba)*b" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="500" width="150" height="20"/>
+        </mxCell>
+        
+        <!-- Estados para AFND 5 -->
+        <mxCell id="q0_5" value="q0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="540" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q1_5" value="q1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="540" width="60" height="60"/>
+        </mxCell>
+        <mxCell id="q2_5" value="q2" style="ellipse;whiteSpace=wrap;html=1;double=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="540" width="60" height="60"/>
+        </mxCell>
+        
+        <!-- Flecha inicial AFND 5 -->
+        <mxCell id="start5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="start_point5" target="q0_5">
+          <mxGeometry width="50" height="50" relative="1">
+            <mxPoint x="400" y="570" as="sourcePoint"/>
+            <mxPoint x="450" y="520" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="start_point5" value="" style="point;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="5" height="5"/>
+        </mxCell>
+        
+        <!-- Transiciones AFND 5 -->
+        <mxCell id="t1_5" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;entryX=0.25;entryY=1;" edge="1" parent="1" source="q0_5" target="q0_5">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t2_5" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0_5" target="q1_5">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t3_5" value="a" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1_5" target="q0_5">
+          <mxGeometry relative="1"/>
+        </mxCell>
+        <mxCell id="t4_5" value="b" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1_5" target="q2_5">
+          <mxGeometry relative="1"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
