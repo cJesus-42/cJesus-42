@@ -1,0 +1,30 @@
+<mxfile host="app.diagrams.net" modified="2025-10-13T21:40:00.000Z" agent="5.0 (Windows NT 10.0; Win64; x64)" etag="AFND_ER4_V3" version="22.1.2" type="embed">
+  <diagram id="AFND_ER4" name="ER4: (aa/ab)*">
+    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <mxCell id="2" value="q0 (Loop/Accept)" style="ellipse;whiteSpace=wrap;html=1;doubleEllipse=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="100" y="200" width="60" height="60" as="geometry" /></mxCell>
+        <mxCell id="3" value="q1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1"><mxGeometry x="250" y="100" width="60" height="60" as="geometry" /></mxCell>
+        <mxCell id="4" value="q2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1"><mxGeometry x="400" y="100" width="60" height="60" as="geometry" /></mxCell>
+        <mxCell id="5" value="q3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1"><mxGeometry x="250" y="300" width="60" height="60" as="geometry" /></mxCell>
+        <mxCell id="6" value="q4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1"><mxGeometry x="400" y="300" width="60" height="60" as="geometry" /></mxCell>
+        
+        <mxCell id="7" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" target="2"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="40" y="230" as="sourcePoint" /></mxGeometry></mxCell>
+        
+        <mxCell id="8" value="&amp;epsilon;" style="endArrow=classic;html=1;curved=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="180" y="130" /></Array></mxGeometry></mxCell>
+        <mxCell id="9" value="&amp;epsilon;" style="endArrow=classic;html=1;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="5"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="180" y="330" /></Array></mxGeometry></mxCell>
+        
+        <mxCell id="10" value="a" style="endArrow=classic;html=1;curved=0;" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"><Point x="310" y="130" as="sourcePoint" /></mxGeometry></mxCell>
+        <mxCell id="11" value="a" style="endArrow=classic;html=1;curved=0;" edge="1" parent="1" source="4"><mxGeometry relative="1" as="geometry"><Point x="500" y="130" as="sourcePoint" /><Array as="points"><Point x="500" y="230" /></Array></mxGeometry></mxCell>
+        <mxCell id="12" value="&amp;epsilon;" style="endArrow=classic;html=1;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="2"><mxGeometry relative="1" as="geometry"><Array as="points"><Point x="480" y="170" /><Point x="180" y="170" /></Array></mxGeometry></mxCell>
+
+        <mxCell id="13" value="a" style="endArrow=classic;html=1;curved=0;" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"><Point x="310" y="330" as="sourcePoint" /></mxGeometry></mxCell>
+        <mxCell id="14" value="b" style="endArrow=classic;html=1;curved=0;" edge="1" parent="1" source="6"><mxGeometry relative="1" as="geometry"><Point x="500" y="330" as="sourcePoint" /><Array as="points"><Point x="500" y="230" /></Array></mxGeometry></mxCell>
+        <mxCell id="15" value="&amp;epsilon;" style="endArrow=classic;html=1;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="2"><mxGeometry relative="1" as="geometry"><Array as="points"><Point x="480" y="280" /><Point x="180" y="280" /></Array></mxGeometry></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
