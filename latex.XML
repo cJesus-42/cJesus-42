@@ -1,0 +1,40 @@
+<mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+
+    <!-- Actores -->
+    <mxCell id="cliente" value="Cliente" style="shape=actor;fillColor=#dae8fc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="40" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="emprendedor" value="Emprendedor" style="shape=actor;fillColor=#d5e8d4;" vertex="1" parent="1">
+      <mxGeometry x="20" y="140" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="admin" value="Administrador" style="shape=actor;fillColor=#fff2cc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="240" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="pago" value="Sistema de Pago" style="shape=actor;fillColor=#f8cecc;" vertex="1" parent="1">
+      <mxGeometry x="400" y="40" width="140" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="transporte" value="Empresa de Transporte" style="shape=actor;fillColor=#e1d5e7;" vertex="1" parent="1">
+      <mxGeometry x="400" y="140" width="160" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- Relaciones -->
+    <mxCell id="rel1" style="endArrow=none;" edge="1" parent="1" source="cliente" target="emprendedor">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="rel2" style="endArrow=none;" edge="1" parent="1" source="cliente" target="pago">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="rel3" style="endArrow=none;" edge="1" parent="1" source="emprendedor" target="transporte">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="rel4" style="endArrow=none;" edge="1" parent="1" source="admin" target="cliente">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="rel5" style="endArrow=none;" edge="1" parent="1" source="admin" target="emprendedor">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>
